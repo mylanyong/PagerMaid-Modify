@@ -1,3 +1,4 @@
+USER root
 FROM archlinux/base:latest
 RUN pacman -Syu --needed --noconfirm \
     git \
